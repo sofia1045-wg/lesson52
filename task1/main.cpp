@@ -3,6 +3,7 @@
 
 int main() {
 	int array[DEFAULT_SIZE];
+	//int array[]{ 9, 1, 2, 3, 4, 5, 6, 7, 8 };
 	int size;
 
 	cout << "Input the size of array: ";
@@ -17,7 +18,7 @@ int main() {
 
 	print("\nArray after sorting: ");
 	print(convert(array, size));
-	print()
+	print("\n");
 
 	return 0;
 }
