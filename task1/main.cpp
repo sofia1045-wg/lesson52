@@ -1,4 +1,5 @@
 #include "util.h"
+#include "logic.h"
 
 int main() {
 	int array[DEFAULT_SIZE];
@@ -11,6 +12,12 @@ int main() {
 
 	print("Array before: ");
 	print(convert(array, size));
+
+	sort_bubble(array, size);
+
+	print("\nArray after sorting: ");
+	print(convert(array, size));
+	print()
 
 	return 0;
 }
